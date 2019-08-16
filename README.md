@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+DOM stands for Document Object Model which is a programming interface of HTML and CSS. This is beneficial because it allows one to interact with HTML via JavaScript without altering the original HTML and CSS files.
+
 2. What is an event?
+
+An event is an action that occurs as a result of user action or state change of elements on DOM tree
 
 3. What is an event listener?
 
+event listner is an object that can handle an event that is triggerec by event/target
+
 4. Why would we convert a NodeList into an Array?
 
+It would be beneficial to convert a NodeList to an array because NodeList only have a .forEach method, whereas the array has many more methods including .forEach, .map, .filter etc.
+
 5. What is a component?
+
+component is modular code that is reusable. It allows for dynamic web development.
 
 ### Git Set up
 
