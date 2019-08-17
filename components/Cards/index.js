@@ -58,7 +58,7 @@ function createArticle(obj){
 	//card div
 	const card = document.createElement('div')
 	card.classList.add('card')
-	document.body.appendChild(card)
+	document.querySelector('.cards-container').appendChild(card)
 
 	//headline div
 	const headliner = document.createElement('div')
